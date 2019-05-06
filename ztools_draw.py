@@ -371,6 +371,6 @@ def drDF_cdl(df,m_title='分时数据K线图',ftg='tmp/tmp_plotly.html',m_tkAng=
             ),
     )   #r_vol
     #
-    fig['data'].extend([r_vol])
+    list(fig['data']).extend([r_vol])
     #
     pyplt(fig,filename=ftg,show_link=False)

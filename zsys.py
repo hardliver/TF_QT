@@ -81,8 +81,10 @@ cors_hsv=cm.hsv(np.linspace(0,1,10))
 cors_jet=cm.jet(np.linspace(0,1,10))
 cors_prism=cm.prism(np.linspace(0,1,10))
 cors_Dark2=cm.Dark2(np.linspace(0,1,10))
-cors_Vega10=cm.Vega10(np.linspace(0,1,10))
-cors_Vega20=cm.Vega20(np.linspace(0,1,10))
+# cors_Vega10=cm.Vega10(np.linspace(0,1,10))
+# cors_Vega20=cm.Vega20(np.linspace(0,1,10))
+cors_Vega10=cm.tab10(np.linspace(0,1,10))
+cors_Vega20=cm.tab20(np.linspace(0,1,10))
 
 #------str.xxx
 sgnSP4='    '
