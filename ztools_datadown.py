@@ -182,7 +182,7 @@ def down_stk010(rdat,xcod,xtyp,fgInx=False):
         pass    #skip,error
     
            
-    return xd  
+    return xd, fss
 
 def down_stk_all(rdat,finx,xtyp='D',fgInx=False):
     '''
