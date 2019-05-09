@@ -32,11 +32,7 @@ pyplt=py.offline.plot
 #---------------
 
 #2
-xcod='600663'
-rdat0='/zDat/'
-rDay=rdat0+'tick/2016-11/'
-fss=rDay+xcod+'.csv'
-fss='dat/002645_2016-09-01.csv'
+fss='data/tk002645_2016-09-01.csv'
 df=pd.read_csv(fss,index_col=False)
 df=df.sort_values('time')
 print('\n#2,df.tail()')
