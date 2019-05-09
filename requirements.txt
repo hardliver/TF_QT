@@ -1,6 +1,7 @@
 matplotlib==3.0.3
 pandas==0.24.2
 plotly==3.8.1
+pypinyin==0.35.2
 robobrowser==0.5.3
 scikit-learn==0.20.3
 tushare==1.2.34
