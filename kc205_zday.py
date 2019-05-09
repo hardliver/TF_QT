@@ -34,9 +34,7 @@ pyplt=py.offline.plot
 
 #2
 xcod='600663'
-rdat0='/zDat/'
-rDay=rdat0+'cn/Day/'
-fss=rDay+xcod+'.csv'
+fss='./data/'+xcod+'.csv'
 df=pd.read_csv(fss,index_col=0)
 df=df.sort_index()
 print('\n#2,df.tail()')
